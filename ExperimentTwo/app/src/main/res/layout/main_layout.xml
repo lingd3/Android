@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/title"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        style="@style/sysu_img"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            style="@style/name_edit_style"
+            android:id="@+id/username"
+            android:hint="请输入用户名" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/password_edit_style"
+            android:hint="请输入密码" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/id0"
+        style="@style/my_radiogroup_style">
+
+        <RadioButton
+            style="@style/my_radiobutton_style"
+            android:id="@+id/id1"
+            android:checked="true"
+            android:text="@string/student"/>
+
+        <RadioButton
+            style="@style/my_radiobutton_style"
+            android:id="@+id/id2"
+            android:text="@string/teacher" />
+
+        <RadioButton
+            style="@style/my_radiobutton_style"
+            android:id="@+id/id3"
+            android:text="@string/club" />
+
+        <RadioButton
+            style="@style/my_radiobutton_style"
+            android:id="@+id/id4"
+            android:text="@string/manager" />
+
+    </RadioGroup>
+
+    <LinearLayout style="@style/bottom_style">
+        <Button
+            android:text="@string/login"
+            android:layout_marginRight="15dp"
+            android:id="@+id/button1"
+            style="@style/bottom_button"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:text="@string/register"
+            style="@style/bottom_button"/>
+    </LinearLayout>
+
+</LinearLayout>
