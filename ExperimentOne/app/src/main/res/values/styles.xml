@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_marginTop">@dimen/normal_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/title</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="sysu_img">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_margin">@dimen/normal_size</item>
+        <item name="android:src">@mipmap/sysu</item>
+    </style>
+
+    <style name="table_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/normal_size</item>
+        <item name="android:layout_marginRight">@dimen/normal_size</item>
+    </style>
+
+    <style name="table_textview_style">
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:text">@string/username</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="table_textview_style1">
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:text">@string/password</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="table_editview_style">
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="my_radiogroup_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="my_radiobutton_style">
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="bottom_style">
+        <item name="android:layout_marginTop">@dimen/normal_size</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="bottom_button">
+        <item name="android:background">@drawable/buttonshape</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorButton</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+</resources>
