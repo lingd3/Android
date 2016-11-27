@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Ex4</string>
-    <string name="static_register">静态注册</string>
-    <string name="dynamic_register">动态注册</string>
-    <string name="register">Register Broadcast</string>
-    <string name="unregister">Unregister Broadcast</string>
-    <string name="send">Send</string>
-</resources>
