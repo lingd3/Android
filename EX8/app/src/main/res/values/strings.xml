@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EX8</string>
+    <string name="add_item">增加条目</string>
+    <string name="add">增加</string>
+    <string name="name">姓名</string>
+    <string name="birthday">生日</string>
+    <string name="gift">礼物</string>
+</resources>
